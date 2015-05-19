@@ -196,7 +196,7 @@ if __name__ == "__main__":
             playerTilePos = mc.player.getTilePos()
 
             playerTilePos.y = playerTilePos.y - 1
-
+            
             if matchVec3(playerTilePos, upControl) == True:
                 gamie.changeDirection("up")
             elif matchVec3(playerTilePos, downControl) == True:
